@@ -2,10 +2,10 @@ import './styles/Pages.css'
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
-import CoursesPage from './pages/CoursesPage';
-import ContactPage from './pages/ContactPage';
-import AdmissionsPage from './pages/AdmissionsPage';
-import ChatbotComponent from './components/Chatbot/ChatbotComponent';
+import CoursesPage from "./pages/CoursesPage";
+import ContactPage from "./pages/ContactPage";
+import AdmissionsPage from "./pages/AdmissionsPage";
+import ChatbotComponent from "./components/Chatbot/ChatbotComponent";
 
 const App = () => {
   return (
