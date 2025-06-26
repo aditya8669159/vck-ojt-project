@@ -1,3 +1,4 @@
+import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 
 const CoursesPage = () => {
@@ -97,8 +98,11 @@ const CoursesPage = () => {
           <p align="center">Have questions about a specific course?</p>
           <a href="/contact"><center><button>Inquire About Courses</button></center></a>
     </div>
+  
     </div>
+    
     </div>
+   <Footer/>
     </div>
   )
 }
