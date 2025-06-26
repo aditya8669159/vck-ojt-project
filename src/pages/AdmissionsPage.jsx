@@ -4,7 +4,9 @@ const AdmissionsPage = () => {
 
     
     <div class="style-color">
+         <div class="body">
         <h2><Header/></h2>
+         <div class="inner-body">
     <div class="page-style">
         <h1><font color="blue">Admissions at Vivekanand College</font></h1>
         <p align="left">Welcome to the Admissions page of Vivekanand College! We are delighted you're considering joining our vibrant academic community. Our admission process is designed to be straightforward and accessible.<br></br><br></br>
@@ -53,7 +55,8 @@ Please review the eligibility criteria and key dates below for the upcoming acad
 < p align="left">For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our <a href="/courses">Courses page</a> or<a href="/contact"> Contact us</a> directly.</p>
 
 
-
+</div>
+</div>
     </div>
     </div>
      )

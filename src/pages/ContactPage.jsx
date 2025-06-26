@@ -3,8 +3,9 @@ import Header from "../components/Header/Header";
 const ContactPage = () => {
   return (
      <div class="style-color">
-    
+      <div class="body"> 
         <h2><Header/></h2>
+         <div class="inner-body">
         <div class="page-style">
         <h1><font color="blue">Contact Us</font></h1>
         <p align="left">We'd love to hear from you! Whether you have questions about admissions, programs, or campus life, our team is here to help.</p><hr></hr>
@@ -34,7 +35,8 @@ const ContactPage = () => {
         
    </div>
   </div>
-    
+    </div>
+    </div>
   )
 }
 export default ContactPage;

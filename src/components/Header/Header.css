@@ -11,10 +11,8 @@ h3{
     font-size: 30px;
 }
 
-
-
 header { background-color: #003366; color: white; padding: -50px; }
-    nav a { color: white; margin: 0 15px; text-decoration: none; }
-    .apply-button { background-color: green; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+    nav a { color: white; margin: 0 20px; text-decoration: none; }
+    .apply-button { background-color: green; color: white; padding: 100% 20%; text-decoration: none; border-radius: 5px; }
     .hero { padding: 40px; text-align: right; background-color: #f0f8ff; }
-    .footer { background-color: #222; color: #aaa; padding: 10px; text-align: right; }
+   

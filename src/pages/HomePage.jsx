@@ -1,3 +1,4 @@
+import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 
 const HomePage = () => {
@@ -5,17 +6,25 @@ const HomePage = () => {
     
       <div class="style-color">
         
+       <div class="body"> 
       <h2><Header/></h2>
+      <div class="inner-body">
       
      <div class="page-style">
       <span align="center">
-      <div class="text" >
+      <div class="text">
 
-     
-      <img src="\imges\vckbanner.png" width="100%" height="300px"></img>
+     <span class ="image-container">
+      
+      <img src="\imges\vckbanner.png" width="110%" height="300px"></img>
+      <span class="text-img-overlay" >
+      
       <h3>Welcome to Vivekanand College !</h3>
       <h4>Your journey to excellence starts here.</h4>
-      <a href="/admissions" align="center"><button >Apply Now!</button></a><hr></hr>
+      <a href="/admissions" align="center"><button >Apply Now!</button></a>
+      </span>
+
+      </span>
       
       </div>
       </span>
@@ -36,15 +45,19 @@ const HomePage = () => {
     </ul><hr></hr>
 
     < h3 align="left">Campus Life & Facilities</h3>
-    <img alt="library" src="imges\library.jpg" height="186%" width="50%"></img><img alt="vckhead" src="imges\vckhead.jpg" height="200px" width="50%"></img>
+    <img alt="library" src="imges\library.jpg" height="186px" width="50%"></img><img alt="vckhead" src="imges\vckhead.jpg" height="200px" width="50%"></img>
     <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
       
       <p>Ready to explore our courses?</p>
      <a href="/courses" align="center"><center><button>Explore Courses</button></center></a>
      </div>
-    </div>
+     </div>
+     </div>
+     </div>
     
-    
+  
   )
+  
 }
+
 export default HomePage;

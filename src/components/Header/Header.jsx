@@ -18,6 +18,7 @@ const Header = () => {
                 <Link to="/contact">Contact</Link>
                 
                 
+                
                 <a href="/admissions" align="right"><button>Apply Now!</button></a>
                 </p>
                 </div>
@@ -25,8 +26,11 @@ const Header = () => {
                 
                 
             </nav>
+            
         </header>
     </div>
   )
+
+  
 }
 export default Header;
