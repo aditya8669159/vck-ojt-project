@@ -21,7 +21,7 @@ const Header = () => {
                 
                 
                 
-                <a href="/admissions" align="right"><button>Apply Now!</button></a>
+                <Link to="/admissions" align="right"><button>Apply Now!</button></Link>
                 </p>
                 </div>
                 
