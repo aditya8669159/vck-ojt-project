@@ -5,7 +5,7 @@ const Footer = () => {
                     <div  className="ravi">
                     
 
-                <p>© 2025 Vivekanand College. All rights reserved.     </p>
+               <center><p align="center">© 2025 Vivekanand College. All rights reserved.  </p></center>
 
 
         
