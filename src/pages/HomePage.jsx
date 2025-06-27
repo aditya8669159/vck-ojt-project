@@ -21,7 +21,7 @@ const HomePage = () => {
       
       <h3>Welcome to Vivekanand College !</h3>
       <h4>Your journey to excellence starts here.</h4>
-      <a href="/admissions" align="center"><button >Apply Now!</button></a>
+      <Link to="/admissions" align="center"><button >Apply Now!</button></Link>
       </span>
 
       </span>
